@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Calc</title>
+    <link rel="stylesheet" href="jscalc.css" />
+    <script src="./jscalc.js"></script>
+  </head>
+  <body>
+    <h1>JS Calc</h1>
+    <div id="calc">
+      <div id="display"></div>
+      <div id="keypad">
+        <p>
+          &emsp;<button id="1" onclick="buttonPressed(1);">1</button>&emsp;<button id="2" onclick="buttonPressed(2);">
+            2</button
+          >&emsp;<button id="3" onclick="buttonPressed(3);">3</button>&emsp;<button
+            id="A"
+            onclick="buttonPressed('add');"
+          >
+            &plus;
+          </button>
+        </p>
+        <p>
+          &emsp;<button id="4" onclick="buttonPressed(4);">4</button>&emsp;<button id="5" onclick="buttonPressed(5);">
+            5</button
+          >&emsp;<button id="6" onclick="buttonPressed(6);">6</button>&emsp;<button
+            id="S"
+            onclick="buttonPressed('subtract');"
+          >
+            &minus;
+          </button>
+        </p>
+        <p>
+          &emsp;<button id="7" onclick="buttonPressed(7);">7</button>&emsp;<button id="8" onclick="buttonPressed(8);">
+            8</button
+          >&emsp;<button id="9" onclick="buttonPressed(9);">9</button>&emsp;<button
+            id="M"
+            onclick="buttonPressed('multiply');"
+          >
+            &times;
+          </button>
+        </p>
+        <p>
+          &emsp;<button id="0" onclick="buttonPressed(0);">0</button>&emsp;<button id="C" onclick="buttonPressed('C');">
+            C</button
+          >&emsp;<button id="equals" onclick="buttonPressed('equals');">&equals;</button>&emsp;<button
+            id="D"
+            onclick="buttonPressed('divide');"
+          >
+            &divide;
+          </button>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
