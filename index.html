@@ -8,11 +8,11 @@
     <script src="./jscalc.js"></script>
   </head>
   <body>
-    <h1>JS Calc</h1>
     <div id="calc">
+      <h1>JS Calc</h1>
       <div id="display"></div>
       <div id="keypad">
-        <p>
+        <div class="buttonRow">
           &emsp;<button id="1" onclick="buttonPressed(1);">1</button>&emsp;<button id="2" onclick="buttonPressed(2);">
             2</button
           >&emsp;<button id="3" onclick="buttonPressed(3);">3</button>&emsp;<button
@@ -21,8 +21,8 @@
           >
             &plus;
           </button>
-        </p>
-        <p>
+        </div>
+        <div class="buttonRow">
           &emsp;<button id="4" onclick="buttonPressed(4);">4</button>&emsp;<button id="5" onclick="buttonPressed(5);">
             5</button
           >&emsp;<button id="6" onclick="buttonPressed(6);">6</button>&emsp;<button
@@ -31,8 +31,8 @@
           >
             &minus;
           </button>
-        </p>
-        <p>
+        </div>
+        <div class="buttonRow">
           &emsp;<button id="7" onclick="buttonPressed(7);">7</button>&emsp;<button id="8" onclick="buttonPressed(8);">
             8</button
           >&emsp;<button id="9" onclick="buttonPressed(9);">9</button>&emsp;<button
@@ -41,8 +41,8 @@
           >
             &times;
           </button>
-        </p>
-        <p>
+        </div>
+        <div class="buttonRow">
           &emsp;<button id="0" onclick="buttonPressed(0);">0</button>&emsp;<button id="C" onclick="buttonPressed('C');">
             C</button
           >&emsp;<button id="equals" onclick="buttonPressed('equals');">&equals;</button>&emsp;<button
@@ -51,7 +51,7 @@
           >
             &divide;
           </button>
-        </p>
+        </div>
       </div>
     </div>
   </body>
